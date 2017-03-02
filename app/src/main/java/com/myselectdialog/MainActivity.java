@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
         (findViewById(R.id.show_dialog)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                show();
+
+                show();//显示Dialog
+
             }
         });
     }
